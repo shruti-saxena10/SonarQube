@@ -32,6 +32,6 @@ jobs:
          -Dsonar-projectKey= spring-boot-demo
     env:
        SONAR_TOKEN: ${{ secrets.SONAR.TOKEN}}
-       SONAR_HOST_TOKEN: ${{ secrets.SONAR_HOST_URL}}
+       SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL}}
 
     
